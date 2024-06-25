@@ -10,6 +10,8 @@ import { BullAdapter } from '@bull-board/api/bullAdapter';
 import { ExpressAdapter } from '@bull-board/express';
 import axios from 'axios';
 import querystring from 'querystring';
+import cors from 'cors';
+
 
 
 
@@ -17,6 +19,8 @@ dotenv.config();
 
 const app = express();
 const port = 3000;
+
+app.use(cors({origin:"*"}))
 
 const serverAdapter = new ExpressAdapter();
 serverAdapter.setBasePath('/admin/queues');
