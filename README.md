@@ -48,14 +48,21 @@ ts-node server.ts
 
 Route: ```/auth/google```
 Description: Initiates the Google OAuth2 flow.
+
 Method: GET
+
 
 Route: ```/auth/outlook```
+
 Description: Initiates the Outlook OAuth2 flow.
+
 Method: GET
 
+
 Route: ```/admin/queues```
+
 Description: Provides a web interface to monitor and manage BullMQ jobs.
+
 Method: GET
 
 
