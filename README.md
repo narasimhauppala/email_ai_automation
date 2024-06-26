@@ -43,6 +43,8 @@ Step 3: Start the server:
 ts-node server.ts
 ```
 
+Now the server will run on ```PORT 3000```
+
 
 ### Routes
 
