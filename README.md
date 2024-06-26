@@ -69,3 +69,34 @@ Description: Provides a web interface to monitor and manage BullMQ jobs.
 Method: GET
 
 
+
+### Functionality
+
+`Fetching Emails:`
+
+Gmail: Uses Google API to fetch unread emails.
+Outlook: Uses Microsoft Graph API to fetch unread emails.
+Analyzing Email Content:
+
+`Function: analyzeEmailContent`
+Description: Uses OpenAI API to analyze email content and classify it into categories: Interested, Not Interested, More Information.
+Generating Replies:
+
+`Function: generateReply`
+Description: Uses OpenAI API to generate appropriate replies based on the email content analysis.
+Sending Replies:
+
+Gmail: Uses Google API to send replies.
+Outlook: Uses Microsoft Graph API to send replies.
+
+
+Processing Emails:
+`BullMQ Worker:`
+Processes email jobs added to the queue, analyzes content, generates replies, and sends responses.
+Periodic Email Check:
+
+`Cron Job:`
+Runs every 5 minutes to fetch new emails from Gmail and Outlook, then adds them to the queue for processing.
+
+
+
