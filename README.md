@@ -47,6 +47,7 @@ ts-node server.ts
 ### Routes
 
 Route: ```/auth/google```
+
 Description: Initiates the Google OAuth2 flow.
 
 Method: GET
