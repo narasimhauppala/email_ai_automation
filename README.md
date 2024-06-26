@@ -1,6 +1,6 @@
 # email_ai_automation
 
-###Prerequisites
+### Prerequisites
 
 Node.js: Ensure you have Node.js installed.
 
