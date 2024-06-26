@@ -27,7 +27,7 @@ REDIS_PASSWORD=your-redis-password
 Step 1: Clone the repo
 
 ```
-git clone https://github.com/your-repo//email_ai_automation.git
+git clone https:/github.com/narasimhauppala/email_ai_automation.git
 cd email_ai_automation
 ```
 
